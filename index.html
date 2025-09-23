@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sadoo Shopping Center</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="ssc-header">
+		<nav class="ssc-nav">
+			<div class="logo-title">
+				<span class="site-logo s-logo">S</span>
+				<span class="brand">Sadoo Shopping Center</span>
+			</div>
+			<ul class="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="lang-switch">
+				<button id="en-btn" class="lang-btn">English</button>
+				<button id="sw-btn" class="lang-btn">Swahili</button>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section id="home" class="hero ssc-hero">
+			<div class="hero-content">
+				<h1>Welcome to Sadoo Shopping Center</h1>
+				<p>Your one-stop shop for electronics, clothes, and agricultural products. Discover quality, affordability, and friendly service!</p>
+				<a href="#products" class="shop-btn">Shop Now</a>
+			</div>
+		</section>
+		<section id="products" class="ssc-products">
+			<h2 id="products-title">Featured Products</h2>
+			<div class="product-tabs">
+				<button class="tab-btn" data-tab="clothes">Clothes</button>
+				<button class="tab-btn" data-tab="furniture">Used Furniture</button>
+				<button class="tab-btn" data-tab="mitumba">Mitumba</button>
+				<button class="tab-btn" data-tab="electronics">Secondhand Electronics</button>
+			</div>
+			<div class="products-grid" id="clothes-grid">
+				<div class="product-card clothes">
+					<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Men's T-Shirt">
+					<h3 class="prod-name">Men's T-Shirt</h3>
+					<span class="price prod-price">Tsh 15,000</span>
+					<button class="cart-btn" data-name="Men's T-Shirt" data-price="15000">Add to Cart</button>
+				</div>
+				<div class="product-card clothes">
+					<img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80" alt="Women's Dress">
+					<h3 class="prod-name">Women's Dress</h3>
+					<span class="price prod-price">Tsh 35,000</span>
+					<button class="cart-btn" data-name="Women's Dress" data-price="35000">Add to Cart</button>
+				</div>
+				<div class="product-card clothes">
+					<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Kids' Jacket">
+					<h3 class="prod-name">Kids' Jacket</h3>
+					<span class="price prod-price">Tsh 25,000</span>
+					<button class="cart-btn" data-name="Kids' Jacket" data-price="25000">Add to Cart</button>
+				</div>
+			</div>
+			<div class="products-grid" id="furniture-grid" style="display:none;">
+				<div class="product-card furniture">
+					<img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=400&q=80" alt="Used Sofa">
+					<h3>Used Sofa</h3>
+					<span class="price">Tsh 120,000</span>
+					<button class="cart-btn" data-name="Used Sofa" data-price="120000">Add to Cart</button>
+				</div>
+				<div class="product-card furniture">
+					<img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=400&q=80" alt="Secondhand Table">
+					<h3>Secondhand Table</h3>
+					<span class="price">Tsh 60,000</span>
+					<button class="cart-btn" data-name="Secondhand Table" data-price="60000">Add to Cart</button>
+				</div>
+			</div>
+			<div class="products-grid" id="mitumba-grid" style="display:none;">
+				<div class="product-card mitumba">
+					<img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Mitumba Jeans">
+					<h3>Mitumba Jeans</h3>
+					<span class="price">Tsh 9,500</span>
+					<button class="cart-btn" data-name="Mitumba Jeans" data-price="9500">Add to Cart</button>
+				</div>
+				<div class="product-card mitumba">
+					<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Mitumba Jacket">
+					<h3>Mitumba Jacket</h3>
+					<span class="price">Tsh 10,000</span>
+					<button class="cart-btn" data-name="Mitumba Jacket" data-price="10000">Add to Cart</button>
+				</div>
+			</div>
+			<div class="products-grid" id="electronics-grid" style="display:none;">
+				<div class="product-card electronics">
+					<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Secondhand Smartphone">
+					<h3>Secondhand Smartphone</h3>
+					<span class="price">Tsh 80,000</span>
+					<button class="cart-btn" data-name="Secondhand Smartphone" data-price="80000">Add to Cart</button>
+				</div>
+				<div class="product-card electronics">
+					<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="Secondhand Laptop">
+					<h3>Secondhand Laptop</h3>
+					<span class="price">Tsh 250,000</span>
+					<button class="cart-btn" data-name="Secondhand Laptop" data-price="250000">Add to Cart</button>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="ssc-about">
+			<h2>About Sadoo Shopping Center</h2>
+			<p>Sadoo Shopping Center is your trusted partner for quality products in electronics, fashion, and agriculture. We are committed to excellent service and affordable prices for everyone.</p>
+		</section>
+		<section id="contact" class="ssc-contact">
+			<h2>Contact Us</h2>
+			<div class="contact-details">
+				<p><strong>Email:</strong> info@sadooshopping.com</p>
+				<p><strong>Phone:</strong> +255 675 090 394</p>
+				<p><strong>Location:</strong> <span style="font-size:1.2em;vertical-align:middle;">📍</span> Morogoro, Mzumbe</p>
+				<p><strong>Payment Method:</strong> Mobile Money (M-Pesa, Tigo Pesa, Airtel Money)</p>
+			</div>
+		</section>
+	</main>
+	<footer class="ssc-footer">
+		<p>&copy; 2025 Sadoo Shopping Center. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+
